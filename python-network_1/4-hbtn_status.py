@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+"""__summary__
+- Write a Python script that
+- fetches https://intranet.hbtn.io/status.
 """
-Module 4-hbtn_status.py
-"""
-
 import requests
 
 
