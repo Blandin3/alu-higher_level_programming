@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-"""Documented"""
 import urllib.request
 
 url = 'https://intranet.hbtn.io/status'
@@ -16,4 +15,3 @@ with urllib.request.urlopen(req) as response:
     print("\t- type:", type(content))
     print("\t- content:", content)
     print("\t- utf8 content:", content.decode("utf-8"))
-
